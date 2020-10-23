@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  background: #d8d8d8;
+}
+
+/*****:::::::::::::::::::::::nav:::::::::::::::::::::::::*****/
+.bgnav::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 56px;
+  background: url("gog assets/bg.jpg") repeat-x top center rgba(26, 26, 26, 0.9);
+  z-index: -1;
+}
+
+.navbar {
+  padding: 0.8rem 0 1rem 0;
+}
+
+.font {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#pad a {
+  padding: 0 29px 0 17px;
+}
+
+nav a.signin {
+  color: #de8ae5 !important;
+}
+nav a.signin:hover {
+  color: #eaaff0 !important;
+}
+
+nav a:hover {
+  color: #fff !important;
+}
+
+.bg-logo {
+  background-color: #fff;
+}
+
+/*****:::::::::::::::::::::::Highlights:::::::::::::::::::::::::*****/
+
+.Highlights {
+  font-weight: 500;
+}
+
+.borderhr {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+/*****:::::::::::::::::::::::carousel:::::::::::::::::::::::::*****/
+.caroBtn {
+  border-radius: 3px;
+  cursor: pointer;
+  background: linear-gradient(-180deg, #c1ec51, #80b02a);
+  box-shadow: 0 0 28px 8px rgba(0, 0, 0, 0.19), 0 1px 5px 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: none;
+}
+
+.caroBtn:hover {
+  background: linear-gradient(-180deg, #c9ef68, #8fc52f);
+  color: #fff;
+}
+
+.carousel-indicators {
+  bottom: -44px;
+}
+
+.carousel-indicators li {
+  border: 1px solid #78387b;
+  background: #78387b;
+}
+
+.product-discount {
+  background-color: #78387b;
+  color: #fff;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card:hover .caroBtn {
+  display: inline-block;
+}
+
+.card:hover .icons {
+  display: none;
+}
+
+/*****:::::::::::::::::::::::gog-galaxy:::::::::::::::::::::::::*****/
+.gog-galaxy a {
+  color: #404040 !important;
+  font-size: 14px;
+}
+
+.gog-galaxy a:hover {
+  text-decoration: none;
+}
+
+.gog-galaxy span {
+  color: #78387b !important;
+  font-weight: 700;
+}
+
+/*****:::::::::::::::::::::::banner:::::::::::::::::::::::::*****/
+.banner {
+  background-image: url("gog assets/tile (7).jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 112px;
+}
+
+nav.onSale.border-bottom {
+  border-bottom: 0.5px solid #c0c4c9 !important;
+}
+
+.onSale .nav-link:hover {
+  transition: 1s;
+  color: #78387b !important;
+}
+
+.active a {
+  color: #9a459e !important;
+  font-weight: 700;
+  border-bottom: 3px solid #78387b;
+}
+
+.onSale-card {
+  width: 256px;
+  height: 400px;
+  background-image: url("gog assets/tile (33).jpg");
+  border: 2px solid red;
+}
